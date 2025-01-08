@@ -1,10 +1,10 @@
-class Student:
+class Cat:
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
     def greeting(self):
-        print(f"hello I am {self.name}")
+        print("Meoww")
 
     def grow_up(self):
         self.age = self.age + 1
@@ -12,15 +12,9 @@ class Student:
     def print_age(self):
         print(f"age - {self.age}")
 
+cat_blanch = Cat(name = "Blanch", age=4)
+cat_blanch.greeting()
 
-maxym_student = Student(name = "Maxym", age=12)
-maxym_student.greeting()
-
-matvii_stydent = Student(name = "Matvii", age=14)
-matvii_stydent.greeting()
-
-matvii_stydent.print_age()
-matvii_stydent.grow_up()
-matvii_stydent.print_age()
-
-maxym_student.print_age()
+cat_blanch.print_age()
+cat_blanch.grow_up()
+cat_blanch.print_age()
